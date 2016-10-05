@@ -1,6 +1,7 @@
 <?php
   if (getenv("ENABLE_SYSTEM_ACCESS") != "true") {
     header("HTTP/1.0 403 Forbidden");
+    print " hello from info \n";
     exit();
   }
 
